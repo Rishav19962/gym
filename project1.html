@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness website</title>
+</head>
+<link rel="stylesheet" href="css/stylegym.css">
+<style>
+    /* css reset */
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: url(image/man-2604149_1280.jpg);
+        color: white;
+    }
+    .left{
+        display: inline-block;
+         border: 2px solid red;
+         position: absolute;
+         left: 30px;
+         top: 5px;
+    }
+    .left img{
+        width: 136px;
+        filter: invert(100%);
+    }
+    .left div{
+        text-align: center;
+    }
+    .right{
+        display:inline-block;
+        border: 2px solid rgb(255, 196, 0);
+        position: absolute;
+         right: 30px;
+         top: 5px;
+    }
+    .mid{
+        display: block;
+        width: 33%;
+        margin: 12px auto;
+        border: 2px solid rgb(149, 0, 255);
+    }
+    .navber{
+        display: inline-block;
+    }
+    .navber li{
+        display: inline-block;
+    }
+    .navber li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px ;
+    }
+    .navber li a:hover,.navber li a:active{
+        text-decoration: underline;
+        color: blue;
+    }
+    .btn{
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 3px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(182, 169, 194);
+    }
+</style>
+<body>
+    <header class="header">
+        <!-- logo -->
+        <div class="left">
+         <img src="image/physiotherapy-595529_1280.jpg" alt="">
+         <div>My Fitness</div>
+        </div>
+        <!-- navber -->
+        <div class="mid"> 
+            <ul class="navber">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness center</a></li>
+                <li><a href="#">Contact Us</a></li>
+             </ul>
+        </div>
+        <!-- button -->
+        <div class="right"> 
+            <button><div class="btn">Call Us Now</div></button>
+            <button><div class="btn">Email Us</div></button>
+        </div>
+    </header>
+</body>
+</html>
